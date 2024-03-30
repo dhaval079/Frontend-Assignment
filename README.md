@@ -31,7 +31,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshots
 
-![Screenshot of your app](frontend-assignment-master\tfe1.png)
+![Screenshot of your app](tfe1.png)
 
 ## Contributing
 
