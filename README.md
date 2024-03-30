@@ -1,4 +1,4 @@
-# This is Frontend Intern Assignment for truefoundry
+# This is Frontend Intern Assignment for TrueFoundry
 
 [![Build Status](https://travis-ci.org/your-username/your-repo.svg?branch=master)](https://travis-ci.org/your-username/your-repo)
 [![npm version](https://badge.fury.io/js/your-package-name.svg)](https://badge.fury.io/js/your-package-name)
