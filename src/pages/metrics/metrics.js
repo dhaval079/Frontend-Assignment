@@ -4,11 +4,23 @@ import CpuChart from '../../components/charts/cpuChart';
 import MemoryUsage from '../../components/charts/memoryUsage';
 import NetworkChart from '../../components/charts/networkChart';
 import DiskChart from '../../components/charts/diskChart';
+import { useEffect, useState } from 'react';
 
 const Metrics = () => {
+  const [time, setTime] = useState(5);
+  const [selectedTime, setSelectedTime] = useState("Last 5 minutes");
+  const [selectedTimeRange, setSelectedTimeRange] = useState(60); // Default to 5 minutes
+
+  useEffect(() => {
+    const endTime = Date.now();
+    const startTime = endTime - (selectedTimeRange * time * 1000);
+  }, [selectedTimeRange, time]);
+
+  
+ 
   return (
     <div className='metricsMain'>
-      <Header />
+      <Header time={time} setTime={setTime} selectedTime={selectedTime} setSelectedTime={setSelectedTime}/>
       <div className='border-2 mx-4 mt-5 rounded-xl p-3'>
         <div className='flex items-center gap-5'>
           <h1 className='font-bold text-2xl'>Metrics</h1>
