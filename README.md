@@ -31,7 +31,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshots
 
-![Screenshot of your app](path/to/screenshot.png)
+![Screenshot of your app](https://drive.google.com/file/d/1VyGcg61TV5JXG-vp4gYb0K6PGqRziD8v/view?usp=sharing)
 
 ## Contributing
 
